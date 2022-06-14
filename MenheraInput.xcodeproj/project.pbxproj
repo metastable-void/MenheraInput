@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B61F2142858AEAE00865DBA /* KeyboardActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61F2132858AEAE00865DBA /* KeyboardActionHandler.swift */; };
 		7B98CA0C2858A00000EAAE8D /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B98CA0B2858A00000EAAE8D /* KeyboardKit */; };
 		7B98CA0E2858A2CC00EAAE8D /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */; };
 		7B98CA102858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98CA0F2858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B61F2132858AEAE00865DBA /* KeyboardActionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardActionHandler.swift; sourceTree = "<group>"; };
 		7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		7B98CA0F2858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenheraAutocompleteToolbar.swift; sourceTree = "<group>"; };
 		7BA624C3284E3C9900B95D4E /* MenheraInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenheraInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 				7BA624DC284E3D7A00B95D4E /* Info.plist */,
 				7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */,
 				7B98CA0F2858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift */,
+				7B61F2132858AEAE00865DBA /* KeyboardActionHandler.swift */,
 			);
 			path = Keyboard;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B98CA102858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift in Sources */,
+				7B61F2142858AEAE00865DBA /* KeyboardActionHandler.swift in Sources */,
 				7B98CA0E2858A2CC00EAAE8D /* KeyboardView.swift in Sources */,
 				7BA624DB284E3D7A00B95D4E /* KeyboardViewController.swift in Sources */,
 			);

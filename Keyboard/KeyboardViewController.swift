@@ -13,13 +13,8 @@ class KeyboardViewController: KeyboardInputViewController {
     @IBOutlet var nextKeyboardButton: UIButton!
     var keyboardView: UIView!
     
-    override func updateViewConstraints() {
-        super.updateViewConstraints()
-        
-        // Add custom view sizing constraints here
-    }
-    
     override func viewDidLoad() {
+        keyboardActionHandler = KeyboardActionHandler(inputViewController: self)
         super.viewDidLoad()
     }
     
