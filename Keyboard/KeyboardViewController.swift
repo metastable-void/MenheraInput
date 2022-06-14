@@ -15,6 +15,11 @@ class KeyboardViewController: KeyboardInputViewController {
     
     override func viewDidLoad() {
         keyboardActionHandler = KeyboardActionHandler(inputViewController: self)
+        let japaneseLocale = Locale(identifier: "ja")
+        keyboardContext.locales = [
+            japaneseLocale
+        ]
+        keyboardContext.locale = japaneseLocale
         super.viewDidLoad()
     }
     
