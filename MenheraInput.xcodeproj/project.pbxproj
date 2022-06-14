@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B98CA0C2858A00000EAAE8D /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B98CA0B2858A00000EAAE8D /* KeyboardKit */; };
+		7B98CA0E2858A2CC00EAAE8D /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */; };
+		7B98CA102858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98CA0F2858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift */; };
 		7BA624C7284E3C9900B95D4E /* MenheraInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA624C6284E3C9900B95D4E /* MenheraInputApp.swift */; };
 		7BA624C9284E3C9900B95D4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA624C8284E3C9900B95D4E /* ContentView.swift */; };
 		7BA624CB284E3C9C00B95D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA624CA284E3C9C00B95D4E /* Assets.xcassets */; };
@@ -40,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		7B98CA0F2858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenheraAutocompleteToolbar.swift; sourceTree = "<group>"; };
 		7BA624C3284E3C9900B95D4E /* MenheraInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenheraInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA624C6284E3C9900B95D4E /* MenheraInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenheraInputApp.swift; sourceTree = "<group>"; };
 		7BA624C8284E3C9900B95D4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B98CA0C2858A00000EAAE8D /* KeyboardKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +116,8 @@
 			children = (
 				7BA624DA284E3D7A00B95D4E /* KeyboardViewController.swift */,
 				7BA624DC284E3D7A00B95D4E /* Info.plist */,
+				7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */,
+				7B98CA0F2858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift */,
 			);
 			path = Keyboard;
 			sourceTree = "<group>";
@@ -149,6 +157,9 @@
 			dependencies = (
 			);
 			name = Keyboard;
+			packageProductDependencies = (
+				7B98CA0B2858A00000EAAE8D /* KeyboardKit */,
+			);
 			productName = Keyboard;
 			productReference = 7BA624D8284E3D7900B95D4E /* Keyboard.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -180,6 +191,9 @@
 				Base,
 			);
 			mainGroup = 7BA624BA284E3C9900B95D4E;
+			packageReferences = (
+				7B98CA0A2858A00000EAAE8D /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+			);
 			productRefGroup = 7BA624C4284E3C9900B95D4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -223,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B98CA102858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift in Sources */,
+				7B98CA0E2858A2CC00EAAE8D /* KeyboardView.swift in Sources */,
 				7BA624DB284E3D7A00B95D4E /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +383,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -397,6 +414,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,6 +511,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B98CA0A2858A00000EAAE8D /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B98CA0B2858A00000EAAE8D /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B98CA0A2858A00000EAAE8D /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7BA624BB284E3C9900B95D4E /* Project object */;
 }
