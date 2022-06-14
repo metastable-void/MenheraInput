@@ -20,6 +20,9 @@ class KeyboardViewController: KeyboardInputViewController {
             japaneseLocale
         ]
         keyboardContext.locale = japaneseLocale
+        inputSetProvider = StandardInputSetProvider(context: keyboardContext, providers: [
+            JapaneseInputSetProvider()
+        ])
         super.viewDidLoad()
     }
     

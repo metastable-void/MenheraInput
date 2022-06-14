@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B61F2142858AEAE00865DBA /* KeyboardActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61F2132858AEAE00865DBA /* KeyboardActionHandler.swift */; };
+		7B61F2162858C0B900865DBA /* JapaneseInputSetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61F2152858C0B900865DBA /* JapaneseInputSetProvider.swift */; };
 		7B98CA0C2858A00000EAAE8D /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B98CA0B2858A00000EAAE8D /* KeyboardKit */; };
 		7B98CA0E2858A2CC00EAAE8D /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */; };
 		7B98CA102858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98CA0F2858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		7B61F2132858AEAE00865DBA /* KeyboardActionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardActionHandler.swift; sourceTree = "<group>"; };
+		7B61F2152858C0B900865DBA /* JapaneseInputSetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapaneseInputSetProvider.swift; sourceTree = "<group>"; };
 		7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		7B98CA0F2858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenheraAutocompleteToolbar.swift; sourceTree = "<group>"; };
 		7BA624C3284E3C9900B95D4E /* MenheraInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenheraInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */,
 				7B98CA0F2858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift */,
 				7B61F2132858AEAE00865DBA /* KeyboardActionHandler.swift */,
+				7B61F2152858C0B900865DBA /* JapaneseInputSetProvider.swift */,
 			);
 			path = Keyboard;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B61F2162858C0B900865DBA /* JapaneseInputSetProvider.swift in Sources */,
 				7B98CA102858A3AB00EAAE8D /* MenheraAutocompleteToolbar.swift in Sources */,
 				7B61F2142858AEAE00865DBA /* KeyboardActionHandler.swift in Sources */,
 				7B98CA0E2858A2CC00EAAE8D /* KeyboardView.swift in Sources */,
