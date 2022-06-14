@@ -9,9 +9,6 @@ import UIKit
 import KeyboardKit
 
 class KeyboardViewController: KeyboardInputViewController {
-
-    @IBOutlet var nextKeyboardButton: UIButton!
-    var keyboardView: UIView!
     
     override func viewDidLoad() {
         keyboardActionHandler = KeyboardActionHandler(inputViewController: self)

@@ -78,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B61F2172858DADD00865DBA /* Skk */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Skk;
+			sourceTree = "<group>";
+		};
 		7BA624BA284E3C9900B95D4E = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +125,7 @@
 		7BA624D9284E3D7A00B95D4E /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
+				7B61F2172858DADD00865DBA /* Skk */,
 				7BA624DA284E3D7A00B95D4E /* KeyboardViewController.swift */,
 				7BA624DC284E3D7A00B95D4E /* Info.plist */,
 				7B98CA0D2858A2CC00EAAE8D /* KeyboardView.swift */,
